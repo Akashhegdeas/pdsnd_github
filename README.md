@@ -5,7 +5,13 @@
 US bikeshare Project
 
 ### Description
-Provides information about bike rentals and usage across three cities i.e NEw york city, Chicago and Washington
+Provides information analytics about bike rentals and usage across three cities i.e NEw york city, Chicago and Washington
+
+### Software used
+Microsoft visual studio
+git bash
+github for remote repo
+Python for data analytics
 
 ### Files used
 bikeshare.py
