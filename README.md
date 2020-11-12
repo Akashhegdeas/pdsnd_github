@@ -19,5 +19,10 @@ chicago.csv
 new_york_city.csv
 washington.csv
 
+### Content of repository
+bikeshare.py 
+.gitignore
+README.md
+
 ### Credits
 repo forked from udacity/pdsnd_github
