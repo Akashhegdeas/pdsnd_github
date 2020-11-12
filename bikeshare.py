@@ -25,13 +25,7 @@ def get_filters():
     
 
     #get user input for month (all, january, february, ... , june)
-    while True:
-        month=input('Enter month name: ').lower()
-        if month in active_months:
-            print('Thank you for your input')
-            break
-        else:
-            print('Invalid input {}, please try again.'.format(month))
+    month = get_month()
     
 
     #get user input for day of week (all, monday, tuesday, ... sunday)
@@ -46,6 +40,16 @@ def get_filters():
 
     print('-'*40)
     return city, month, day
+
+def get_month():
+    while True:
+        month=input('Enter month name: ').lower()
+        if month in active_months:
+            print('Thank you for your input')
+            break
+        else:
+            print('Invalid input {}, please try again.'.format(month))
+    return month
 
 def get_city():
     while True:
